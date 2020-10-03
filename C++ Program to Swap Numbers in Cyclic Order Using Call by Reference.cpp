@@ -1,7 +1,14 @@
 #include<iostream>
 using namespace std;
 
-void cyclicSwap(int *a, int *b, int *c);
+void cyclicSwap(int *a, int *b, int *c)
+{
+    int temp;
+    temp = *b;
+    *b = *a;
+    *a = *c;
+    *c = temp;
+}
 
 int main()
 {
@@ -21,11 +28,3 @@ int main()
     return 0;
 }
 
-void cyclicSwap(int *a, int *b, int *c)
-{
-    int temp;
-    temp = *b;
-    *b = *a;
-    *a = *c;
-    *c = temp;
-}

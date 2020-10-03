@@ -22,6 +22,8 @@ public class RotateArrayGCD {
         System.out.println("\n Please enter by Rotation size");
         System.out.println("i.e. By how much you want to rotate the array");
         int rotateBy = scanner.nextInt();
+        //If rotateBy is greater than the size of array then we will take remainder
+        rotateBy = rotateBy % size;
         StringBuffer sb = new StringBuffer();
         for(int l=0;l<size;l++){
             sb.append(intArray[l]+" ");

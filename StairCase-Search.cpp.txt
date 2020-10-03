@@ -1,0 +1,67 @@
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+vector<string> stair(int n)
+{
+   if(n==0)
+   {
+       vector<string> p;
+       p.push_back("");
+       return p;
+   }
+
+  vector<string> ans;
+
+  if(n>=1)   
+{  vector<string> k=stair(n-1);
+  
+  for(int i=0;i<k.size();i++)
+  {
+      ans.push_back('1'+k[i]);
+  }
+ 
+}
+
+   if(n>=2)   
+{  vector<string> l=stair(n-2);
+  
+  for(int i=0;i<l.size();i++)
+  {
+      ans.push_back('2'+l[i]);
+  }
+}
+
+  if(n>=3)   
+{  vector<string> m=stair(n-3);
+  
+  for(int i=0;i<m.size();i++)
+  {
+      ans.push_back('3'+m[i]);
+  }
+
+}
+
+return ans;
+
+}
+
+int main()
+{
+ int n;
+ cin>>n;
+
+ vector<string> v=stair(n);
+int c=0;
+ for(int i=0;i<v.size();i++)
+
+ {
+     
+     c++;
+ }
+
+ cout<<c;
+
+}

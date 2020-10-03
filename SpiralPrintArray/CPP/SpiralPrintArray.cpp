@@ -1,12 +1,10 @@
-
-
 // C++ implementation to print
 // the counter clock wise
 // spiral traversal of a 2D array
 #include <bits/stdc++.h>
 using namespace std;
 
-#define R 100
+#define R 100 // max decided
 #define C 100
 
 // function to print the
@@ -88,7 +86,7 @@ void counterClockspiralPrint(int m,
 	}
 }
 
-// main function
+// Driver Code
 int main()
 { // sample input
 	int arr[R][C] = {{ 1, 2, 3, 4 },

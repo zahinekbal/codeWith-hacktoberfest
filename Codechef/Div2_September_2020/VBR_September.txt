@@ -1,0 +1,64 @@
+Vibrating Paths (Challenge) (VBR)
+
+You are given an undirected weighted graph with N vertices (numbered 1 through N) and M edges (numbered 1 through M). For each valid i, the i-th edge has weight Si and connects vertices ui and vi. The weights of all edges are pairwise distinct.
+
+Let's denote an edge that connects vertices u and v by (u,v). A vibrating path is a sequence of distinct vertices V1,V2,…,VK such that the following conditions are satisfied:
+
+1≤K≤256
+For each valid i, the edge (Vi,Vi+1) exists in the graph.
+For each valid i and j≤i−2, the edge (Vi,Vj) does not exist in the graph.
+For each valid i: If i>1, let's consider the graph without the edge (Vi−1,Vi); otherwise, consider the original graph. In this graph, the weight of the edge (Vi,Vi+1) is the minimum of weights of all edges adjacent to Vi.
+A graph is K-vertex-colourable if is possible to paint its vertices using at most K distinct colours in such a way that no edge connects two vertices with the same colour.
+
+Your task is to make the graph K-vertex-colourable by hitting the vertices. When a vertex u is hit, all the edges on the vibrating path with maximum length that starts at u are removed (note that this path is unique). You may hit vertices any number of times and in any order. However, each time you hit a vertex, at least one edge must be removed. For each valid i, the cost of hitting the i-th vertex is Ci.
+
+You should make the graph K-vertex-colourable and find one valid way to paint its vertices using K colours (numbered 1 through K). If there are multiple solutions, you may find any one. Then, the sum of costs of all hits you perform should be as small as possible.
+
+Input
+The first line of the input contains three space-separated integers N, M and K.
+The second line contains N space-separated integers C1,C2,…,CN.
+M lines follow. For each valid i, the i-th of these lines contains three space-separated integers ui, vi and Si.
+Output
+Print three lines.
+
+The first of these lines should contain a single integer Q ― the number of hits you want to perform.
+The second line should contain Q space-separated integers ― the vertices you want to hit, in order.
+The third line should contain N space-separated integers x1,x2,…,xN denoting that for each valid i, the i-th vertex should have the colour xi (1≤xi≤K).
+Example Input
+8 10 1
+1 2 3 4 5 6 7 8
+1 2 1
+1 3 7
+2 3 2
+3 4 8
+3 5 3
+4 6 9
+5 6 4
+6 7 5
+6 8 10
+7 8 6
+Example Output
+3
+1 2 7
+1 1 1 1 1 1 1 1
+Explanation
+The following picture describes the graph:
+
+
+
+In the first hit, the edge (1,2) is removed.
+In the second hit, the edges on the path (2,3,5,6,7) are removed.
+In the third hit, the edges on the path (7,8,6,4,3,1) are removed.
+Test generation and constraints
+N is either 103 or 104
+M=105
+K is either 1, 2, 3 or 4
+There are eight test files, one for each combination of N, M and K. For each test file:
+
+The costs C1,C2,…,CN are chosen uniformly randomly and independently between 1 and 512 inclusive.
+M distinct undirected edges are chosen uniformly randomly and independently from the N⋅(N−1)/2 possibilities.
+S1,S2,…,SM is a uniformly randomly chosen permutation of the integers 1 through M.
+Scoring
+If you perform a hit where no edge is removed, or if there is an edge connecting two vertices with the same colour after performing all hits, you will receive the Wrong Answer verdict. Otherwise, the score of a test file is the sum of costs of all hits you perform. The score of a submission is the sum of scores of all test files. Your goal is to minimise the score of your submission.
+
+There are 8 test files. During the contest, the displayed score will account for exactly 4 test files, i.e. your score reflects your submission's performance on 50% of the test files. However, if your program gets a non-AC verdict on any test file, your submission's verdict will be non-AC. In other words, an AC verdict denotes that your program runs successfully on all the test files. After the end of the contest, your score will be changed to include the sum of your program's scores over the other 4 test files.

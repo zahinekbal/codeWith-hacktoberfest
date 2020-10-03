@@ -1,0 +1,50 @@
+Chef and Trump Cards (CRDGAME2)
+
+Chef is playing a card game with his friend Chefu. The rules of the game are as follows:
+
+There are two piles of cards. One pile belongs to Chef and the other to Chefu. One pile may be empty.
+At any moment, each card used in the game has a positive integer value. Whenever the value of a card becomes non-positive, it is removed from the game.
+The game is played in rounds. In each round, each player simultaneously draws one card from the top of his pile.
+If one player's pile is empty, this player cannot draw a card and therefore loses the game. (Note that it is impossible for both piles to be empty.)
+If the values of the drawn cards are equal, each player simply places the card he drew to the bottom of his pile.
+Otherwise, the player whose card has the higher value wins this round. This player places the card he drew to the bottom of his pile. Then, the card his opponent drew is transferred to him and he places this card to the bottom of his pile (below the card he just drew) as well.
+Whenever a card is transferred from one player to the other, the value of that card decreases by 1.
+When there is no transfer of cards between the players during 10100 consecutive rounds, each player calculates the sum of values of the cards that are currently in his pile. If one player has a higher sum, this player wins the game. Otherwise, the game ends in a draw.
+You are given N cards (numbered 1 through N). For each valid i, the value of the i-th card is Ci. Your task is to distribute the cards between the players before the start of the game ― assign each card to one of the players. It is not necessary to distribute the cards equally between the players in any way. After you distribute the cards, each player arranges the cards in his pile in some order he chooses (not necessarily good for this player). Once the game starts, they may not rearrange their piles anymore.
+
+Find the number of distributions of cards such that it is impossible for the game to end in a draw, regardless of how the players form their starting piles. Since this number might be large, compute it modulo 1,000,000,007. Two distributions of cards are different if there is an integer i (1≤i≤N) such that the i-th card belongs to Chef in one distribution and to Chefu in the other distribution.
+
+Input
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers C1,C2,…,CN.
+Output
+For each test case, print a single line containing one integer ― the number of ways to distribute the cards between the players such that the game does not end in a draw, modulo 1,000,000,007.
+
+Constraints
+1≤T≤200
+1≤N≤105
+1≤Ci≤109 for each valid i
+the sum of N over all test cases does not exceed 106
+Subtasks
+Subtask #1 (5 points): N≤8
+Subtask #2 (25 points): N≤200
+Subtask #3 (70 points): original constraints
+
+Example Input
+2
+2
+2 2
+4
+1 2 2 6
+Example Output
+2
+16
+Explanation
+Example case 1: We can only give both cards to Chef or both to Chefu. If we gave one of them to Chef and the other to Chefu, the game would end in a draw.
+
+Example case 2: One of the possible ways to avoid a draw is to give cards 1 and 4 to Chef and the rest to Chefu. Let's assume that Chef forms a pile with cards [6,1] (from top to bottom); Chefu's pile is [2,2]. Then, the game proceeds like this:
+
+In the first round, Chef draws the card with value 6 and wins a card with value 2 from Chefu, so his pile is [1,6,1] and Chefu's pile is [2] after this round. Note that the value of the card transferred from Chefu to Chef decreased to 1.
+In the second round, Chef draws a card with value 1 and Chefu draws his card with value 2, so Chefu wins the round. The value of the card that is transferred from Chef to Chefu decreases to 0, so this card is removed from the game. After this round, Chef's pile is [6,1] and Chefu's pile is [2].
+In the third round, Chef again draws the card with value 6 and wins Chefu's last card. After this round, Chef's pile is [1,6,1] and Chefu's pile is empty. Therefore, Chefu loses the game.

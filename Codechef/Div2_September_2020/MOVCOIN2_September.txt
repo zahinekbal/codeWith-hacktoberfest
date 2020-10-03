@@ -1,0 +1,109 @@
+Move the Coins 2 (MOVCOIN2)
+
+This is a sequel to the problem "Move the Coins" with a couple of twists!
+
+Alice and Bob are playing a board game. The board is a tree Tboard with N nodes (numbered 1 through N). The game involves moving some coins around the board. For a node R (1≤R≤N), let's define a game g(Tboard,R) with the following rules:
+
+Initially, a copy of Tboard is taken and for each valid v, cv coins are placed in the node v.
+Bob and Alice alternate turns; Alice plays first.
+In each turn, the current player must take a single coin from some node other than R (let's denote it by C) and move it to another node which lies on the path between R and C (including R, but not including C).
+If a player cannot move a coin during their turn (i.e. all the coins are in the node R), this player loses the game.
+For example, for the board in the figure below and R=1:
+
+
+
+The current player may take a coin from one of the nodes 2, 4 or 5 (if there were any coins in node 3, taking one of those would also be an option). If they take a coin from node 5, they can move it X steps towards the node R=1, where X is either 1, 2 or 3 and the coin ends up in the node 4, 2 or 1, respectively:
+
+
+
+Let's assume that they pick X=2, so they move the coin to node 2. At the end of this turn, the board is
+
+
+
+and it is the other player's turn.
+
+Both players play optimally. Bob knows some elementary Game Theory, so he is able to very quickly predict the winner of any game. Unimpressed, Alice gives him a harder task: she challenges him to find the winner of g(Tboard,R) for each valid R (1≤R≤N).
+
+Can you help Bob figure out the answer? Specifically, if W is the set of all valid R such that the winner of g(Tboard,R) is Bob, then you must calculate ∑R∈W2R modulo 109+7.
+
+Input
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+Each of the next N−1 lines contains two space-separated integers u and v denoting that nodes u and v are connected by an edge.
+The last line contains N space-separated integers c1,c2,…,cN.
+Output
+For each test case, print a single line containing one integer ― the sum of 2R over all valid R such that the winner of g(Tboard,R) is Bob, modulo 109+7.
+
+Constraints
+1≤T≤1,000
+1≤N≤300,000
+1≤u,v≤N
+0≤ci≤16 for each valid i
+the sum of N over all test cases does not exceed 300,000
+Subtasks
+Subtask #1 (5 points):
+
+T≤10
+N≤10
+ci≤6 for each valid i
+c1+c2+…+cN≤10
+Subtask #2 (10 points):
+
+T≤100
+N≤1,000
+Subtask #3 (85 points): original constraints
+
+Example Input
+2
+3 
+1 2
+2 3
+1 0 1
+6
+1 2
+1 3
+4 3
+3 5
+4 6
+0 2 2 1 3 2
+Example Output
+4
+14
+Explanation
+Although the tree Tboard is undirected, arrows have been added along edges for clarity, indicating the directions in which coins must be moved for each R. The node R itself is always highlighted in red.
+
+Example case 1: The original Tboard looks like this:
+
+
+
+Let's examine the games for R=1,2,3.
+
+
+
+For R=1, Alice turns out to be the winner. On the first turn, she has two possible moves: move the coin from node 3 to node 2 or to node 1. If she does the latter, then at the end of her turn, all coins are in node R, meaning that Bob is unable to move a coin during the next turn and Alice is the winner; since she is playing optimally, she does precisely that :)
+
+For R=2: Bob gets his revenge this time! Alice has two possible initial moves: move the coin from node 1 to node 2, or move the coin from node 3 to node 2. In either case, at the end of her turn, there is exactly one coin remaining in a node other than R. Bob merely has to move this coin to R to leave Alice with no possible moves on her turn.
+
+For R=3, Alice wins again, using very similar reasoning to the R=1 case (her winning move this time around is to move the coin from node 1 to node 3).
+
+We've figured out the winner of g(Tboard,R) for all valid R, and it turns out that Bob only wins one game, when R=2; thus the answer is 22%(109+7)=4.
+
+Example case 2: The original Tboard looks like this:
+
+
+
+The boards for R=1,2,3,4,5,6 are, respectively:
+
+
+
+
+
+
+
+
+
+
+
+
+
+It can be proved that Bob wins g(Tboard,1), g(Tboard,2) and g(Tboard,3), while Alice wins g(Tboard,4), g(Tboard,5) and g(Tboard,6). The answer is (21+22+23)%(109+7)=14.

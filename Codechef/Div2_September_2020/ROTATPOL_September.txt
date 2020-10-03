@@ -1,0 +1,43 @@
+Rotate the Polyline (ROTATPOL)
+
+Chef John is given N points P1,P2,…,PN in a plane. For each valid i, the coordinates of the point Pi are (xi,yi). Help him find a vector v→=(xv,yv) such that the following holds:
+
+For each i (1≤i≤N), let Si=v→⋅PiPi+1−→−−−. Here, we define PN+1=P1.
+The coordinates xv and yv are integers and |xv|,|yv|≤2⋅109.
+It is possible to find three integers w, l and r (1≤l≤r≤N) such that:
+For each i (l≤i≤r), Siw>0.
+For each other valid i, Siw<0.
+If there are multiple solutions, you may find any one. If there are no solutions, let's define xv=yv=0. (Note that the vector v→=(0,0) cannot be a valid solution.)
+
+Input
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+N lines follow. For each valid i, the i-th of these lines contains two space-separated integers xi and yi.
+Output
+For each test case, print a single line containing two space-separated integers xv and yv.
+
+Constraints
+1≤T≤5
+3≤N≤105
+|xi|,|yi|≤5⋅108 for each valid i
+P1,P2,…,PN are pairwise distinct
+Subtasks
+Subtask #1 (50 points, time limit 3 seconds): N≤1,000
+Subtask #2 (50 points, time limit 5 seconds): original constraints
+
+Example Input
+2
+5
+0 0
+1 -1
+2 3
+4 0
+3 7
+4
+0 0
+0 1
+1 1
+1 0
+Example Output
+-5 1
+2 -1

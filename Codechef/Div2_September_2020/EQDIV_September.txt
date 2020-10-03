@@ -1,0 +1,57 @@
+Divide Candies (EQDIV)
+
+There are N heaps of candies (numbered 1 through N); for each valid i, the i-th of them contains exactly iK candies. You aim to partition these heaps between you and your friend in such a way that each heap is given to exactly one of you without being split among you.
+
+The distribution should be as fair as possible. Formally, let's denote the total number of candies you get by A and the total number of candies your friend gets by B; your goal is to minimise |A−B|.
+
+Find the smallest possible value of |A−B| and assign the heaps to you and your friend in some way that minimises |A−B|. If there are multiple solutions, you may find any one of them.
+
+Input
+The first line of the input contains a single integer K, which is common for all test cases.
+The second line contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer N.
+Output
+For each test case, print two lines.
+
+The first of these lines should contain a single integer ― the smallest value of |A−B| we can obtain.
+The second line should contain N characters describing your assignment of heaps. For each valid i, the i-th of them should be '1' if you want to give the i-th heap to you or '0' if you want to give it to your friend.
+Constraints
+1≤T≤2,000
+1≤K≤4
+1≤N≤106
+the sum of N over all test cases does not exceed 5⋅106
+Subtasks
+Subtask #1 (5 points): K=1
+Subtask #2 (10 points): K=2
+Subtask #3 (15 points): K=3
+Subtask #4 (70 points): K=4
+Example Input 1
+2
+2
+4
+5
+Example Output 1
+2
+0001
+3
+01001
+Explanation
+Example case 1: There are four heaps with sizes 1, 4, 9 and 16 and two optimal assignments: either give the last heap to yourself and the rest to your friend or vice versa (so both "0001" and "1110" would be considered correct outputs). In both cases, |A−B|=|16−(1+4+9)|=2.
+
+Example case 2: There are five heaps with sizes 1, 4, 9, 16 and 25. You can assign the second and fifth heap to yourself, and thus |A−B|=|(25+4)−(16+9+1)|=3. It can be proved that this is the smallest possible value of |A−B|.
+
+Example Input 2
+4
+3
+5
+6
+9
+Example Output 2
+271
+00001
+317
+000001
+253
+000001110
+Explanation
+Example case 3: We have K=4 and N=9. The smallest value of |A−B| is |(64+74+84)−(14+24+34+44+54+94)|=|7793−7540|=253.

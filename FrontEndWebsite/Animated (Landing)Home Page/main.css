@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+body {
+    height: 100vh;
+}
+
+html {
+    background: linear-gradient(-75deg, #030202, #110e0e, #030202);
+    background-size: 400%, 400%;
+    animation: backchange 25s ease-in-out infinite;
+}
+
+header h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+header {
+    display: flex;
+    color: orangered;
+    z-index: 1;
+    font-family: "Poppins",sans-serif;
+    background: rgba(0, 0, 0, 0.12);
+    align-items: center;
+    height: 12vh;
+    animation: fadein 2.5s ease-in-out;
+}
+
+.profile {
+    flex: 1.2;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    opacity: 0.85;
+    pointer-events: none;
+}
+
+.timepass {
+    flex: 1;
+    display: flex;
+}
+
+nav {
+    flex: 1.5;
+}
+
+.navlinks {
+    display: flex;
+    position: relative;
+    opacity: 0.9;
+    list-style: none;
+    font-size: 17px;
+    justify-content: space-around;
+}
+
+a.navlink {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+    font-family: "Poppins",sans-serif;
+}
+
+.navlink:hover {
+    background-color: orangered;
+    color: #030202;
+    padding: 15px 30px;
+}
+
+.navlink:active {
+    background-color: firebrick;
+    color: #030202;
+    padding: 15px 30px;
+}
+
+div.about {
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    color: orangered;
+    z-index: 2;
+    top: 60%;
+    left: 45%;
+    transform: translate(-41.5%, -55%);
+    width: 48%;
+    pointer-events: none;
+    animation: fadein 3s ease-in-out;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+ul.aboutlinks {
+    display: flex;
+    position: relative;
+    opacity: 0.8;
+    list-style: none;
+    font-size: 20px;
+    justify-content: space-around;
+    animation: aboutfadeslidein 2.5s linear;
+}
+
+.aboutlink {
+    animation: blinkin 5s ease-in-out infinite;
+    letter-spacing: 1px;
+}
+
+.footer {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-65%, -100%);
+    font-family: "Poppins",sans-serif;
+    text-decoration: none;
+    z-index: 5;
+    color: gray;
+    opacity: 0.75;
+    font-size: 13px;
+    font-weight: 500;
+    animation: fadeslidein 2.5s linear;
+    background: rgba(0, 0, 0, 0.12);
+}
+
+.profile,
+.navlinks {
+    animation: slidein 2.5s ease-in-out;
+}
+
+.headingh1 {
+    font-size: 6vh;
+    color: orangered;
+    font-family: sans-serif;
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 12px;
+    animation: colchange 5s ease-in-out infinite;
+    pointer-events: none;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slidein {
+    0% {
+        left: -4%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+@keyframes fadeslidein {
+    0% {
+        opacity: 0;
+        left: 46%;
+    }
+    50% {
+        opacity: 0.1;
+        left: 48%;
+    }
+    100% {
+        opacity: 0.75;
+        left: 50%;
+    }
+}
+
+@keyframes aboutfadeslidein {
+    0% {
+        opacity: 0;
+        left: -4%;
+    }
+    50% {
+        opacity: 0.1;
+        left: -2%;
+    }
+    100% {
+        opacity: 0.8;
+        left: 0%;
+    }
+}
+
+@keyframes blinkin {
+    0% {
+        opacity: 0.8;
+        color: orangered;
+    }
+    60% {
+        opacity: 0.8;
+    }
+    50% {
+        color: lightgray;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.8;
+        color: orangered;
+    }
+}
+
+@keyframes colchange {
+    0% {
+        color: gray;
+    }
+    50% {
+        color: orangered;
+    }
+    100% {
+        color: gray;
+    }
+}
+
+@keyframes backchange {
+    0% {
+        background-position: right;
+    }
+    50% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}

@@ -1,4 +1,4 @@
-# Codechef Div_2 Long challenge
+# Codechef Div_2 August Long challenge 2020
 Problem link of [CHEFWARS](https://www.codechef.com/AUG20B/problems/CHEFWARS/).
 
 Problem link of [CHEFWED](https://www.codechef.com/AUG20B/problems/CHEFWED/).

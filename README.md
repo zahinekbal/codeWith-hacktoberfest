@@ -40,7 +40,7 @@ Happy coding!!!
       <td align="center"><a href="https://github.com/zahinekbal"><img src="img/zahinekbal.jpg" width="100px;" alt="Zahin Ekbal"/><br /><sub><b>Zahin Ekbal</b></br> Maintainer</sub></a></td>
     </tr>
     <tr>
-     <td align="center"><a href="https://github.com/AswinCG2002"><img src="img/AswinCG2002.jpg" width="100px;" alt="Aswin CG"/><br /><sub><b>Aswin CG</b></br> DEVELOPER</sub></a></td>
+     <td align="center"><a href="https://github.com/AswinCG2002"><img src="img/AswinCG2002.jpg" width="100px;" alt="Aswin CG"/><br /><sub><b>Aswin CG</b></br> Contributor</sub></a></td>
     </tr>
   
 </table>

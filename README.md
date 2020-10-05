@@ -37,8 +37,7 @@ Happy coding!!!
 <!-- Contributors:List-->
 <table>
     <tr>       
-      <td align="center"><a href="https://github.com/zahinekbal"><img src="https://avatars1.githubusercontent.com/u/59429424" width="100px;" alt="Zahin Ekbal"/><br /><sub><b>Zahin Ekbal</b></br> Maintainer</sub></a></td>
-        <td align="center"><a href="https://github.com/SanchitaGupta0224"><img src="https://avatars1.githubusercontent.com/u/34417437" width="100px;" alt="Sanchita Gupta"/><br /><sub><b>Sanchita Gupta</b></br> Contributor</sub></a></td>
+      <!----td align="center"><a href="https://github.com/zahinekbal"><img src="https://avatars1.githubusercontent.com/u/59429424" width="100px;" alt="Zahin Ekbal"/><br /><sub><b>Zahin Ekbal</b></br> Maintainer</sub></a></td----->
     </tr>
 </table>
 

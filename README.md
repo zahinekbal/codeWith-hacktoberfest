@@ -39,6 +39,7 @@ Happy coding!!!
     <tr>       
       <td align="center"><a href="https://github.com/zahinekbal"><img src="img/zahinekbal.jpg" width="100px;" alt="Zahin Ekbal"/><br /><sub><b>Zahin Ekbal</b></br> Maintainer</sub></a></td>
      <td align="center"><a href="https://github.com/AswinCG2002"><img src="img/AswinCG2002.jpg" width="100px;" alt="Aswin CG"/><br /><sub><b>Aswin CG</b></br> Contributor</sub></a></td>
+     <td align="center"><a href="https://github.com/nightrainlily"><img src="img/amaya.jpeg" width="100px;" alt="Amaya Lim"/><br /><sub><b>Amaya Lim</b></br> Contributor</sub></a></td>
     </tr>
 </table>
 

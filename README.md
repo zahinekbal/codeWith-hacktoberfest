@@ -39,6 +39,10 @@ Happy coding!!!
     <tr>       
       <td align="center"><a href="https://github.com/zahinekbal"><img src="img/zahinekbal.jpg" width="100px;" alt="Zahin Ekbal"/><br /><sub><b>Zahin Ekbal</b></br> Maintainer</sub></a></td>
     </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/prototype-raj"><img src="img/rajarshi.jpg" width="100 px" alt="Rajarhsi Rakshit"/><br><sub><b>Rajarshi Rakshit</b><br> Contributor</sub>
+      </td>	
+    </tr>
 </table>
 
 #### Don't forget to Give a Star(⭐) on Repo.

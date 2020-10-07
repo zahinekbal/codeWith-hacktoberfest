@@ -43,6 +43,8 @@ Happy coding!!!
       <td align="center"><a href="https://github.com/prototype-raj"><img src="img/rajarshi.jpg" width="100 px" alt="Rajarshi Rakshit"/><br><sub><b>Rajarshi Rakshit</b><br> Contributor</sub>
       <td align="center"><a href="https://github.com/Jay206-Programmer"><img src="img/Jay_Shukla.jpg" width="100 px" alt="Jay Shukla"/><br><sub><b>Jay Shukla</b><br> Contributor</sub>
       </td>	
+      <td align="center"><a href="https://github.com/saipranay47"><img src="img/sai_pranay.jpg" width="100px;" alt="sai pranay"/><br /><sub><b>Sai Pranay</b></br> contributer </sub></a></td>
+      
     </tr>
 </table>
 

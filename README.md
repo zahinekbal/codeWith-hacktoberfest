@@ -40,8 +40,8 @@ Happy coding!!!
     <tr>       
       <td align="center"><a href="https://github.com/zahinekbal"><img src="img/zahinekbal.jpg" width="100px;" alt="Zahin Ekbal"/><br /><sub><b>Zahin Ekbal</b></br> Maintainer</sub></a></td>
       <td align="center"><a href="https://github.com/ahmedashfaq027"><img src="img/ashfaqahmed.jpg" width="100px;" alt="Ashfaq Ahmed"/><br /><sub><b>Ashfaq Ahmed</b></br> Contributor</sub></a></td>
-      <td align="center"><a href="https://github.com/AswinCG2002"><img src="img/AswinCG2002.jpg" width="100px;" alt="Aswin CG"/><br /><sub><b>Aswin CG</b></br> Contributor</sub></a></td>
-      <td align="center"><a href="https://github.com/Nishant763"><img src="img/NishantBhatia.jpeg" width="100px;" alt="Nishant Bhatia"/><br /><sub><b>Nishant Bhatia</b></br> Contributor</sub></a></td>
+      <td align="center"><a href="https://github.com/AswinCG2002"><img src="img/AswinCG2002.jpg" width="100px;" alt="Aswin CG"/><br /><sub><b>Aswin CG</b></br>Contributor</sub></a></td>
+      <td align="center"><a href="https://github.com/Nishant763"><img src="img/NishantBhatia.jpeg" width="100px;" alt="Nishant Bhatia"/><br /><sub><b>Nishant Bhatia</b></br> Contributor</sub></a></td>  
       <td align="center"><a href="https://github.com/cuncis"><img src="img/Cuncis.jpeg" width="100px;" alt="Cuncis"/><br /><sub><b>Cuncis</b></br> Contributor</sub></a></td>
       <td align="center"><a href="https://github.com/ishika-a"><img src="img/Ishika.jpg" width="100px;" alt="Ishika"/><br /><sub><b>Ishika</b></br> Contributor</sub></a></td>
       <td align="center"><a href="https://github.com/prototype-raj"><img src="img/rajarshi.jpg" width="100px;" height="100px;" alt="Rajarshi Rakshit"/><br><sub><b>Rajarshi Rakshit</b><br> Contributor</sub>

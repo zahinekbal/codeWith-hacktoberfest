@@ -46,6 +46,7 @@ Happy coding!!!
       <td align="center"><a href="https://github.com/ishika-a"><img src="img/Ishika.jpg" width="100px;" alt="Ishika"/><br /><sub><b>Ishika</b></br> Contributor</sub></a></td>
       <td align="center"><a href="https://github.com/prototype-raj"><img src="img/rajarshi.jpg" width="100px;" height="100px;" alt="Rajarshi Rakshit"/><br><sub><b>Rajarshi Rakshit</b><br> Contributor</sub></a></td>
       <td align="center"><a href="https://github.com/Jay206-Programmer"><img src="img/Jay_Shukla.jpg" width="100 px" alt="Jay Shukla"/><br><sub><b>Jay Shukla</b><br> Contributor</sub></a></td>
+      <td align="center"><a href="https://github.com/Anushka-codergirl"><img src="img/Anushka-codergirl.jpg" width="100 px" alt="Anushka Raj"/><br><sub><b>Anushka Raj</b><br> Contributor</sub></a></td>
     </tr>
 </table>
 

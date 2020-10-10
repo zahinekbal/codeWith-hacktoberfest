@@ -44,10 +44,10 @@ Happy coding!!!
       <td align="center"><a href="https://github.com/Nishant763"><img src="img/NishantBhatia.jpeg" width="100px;" alt="Nishant Bhatia"/><br /><sub><b>Nishant Bhatia</b></br> Contributor</sub></a></td>  
       <td align="center"><a href="https://github.com/cuncis"><img src="img/Cuncis.jpeg" width="100px;" alt="Cuncis"/><br /><sub><b>Cuncis</b></br> Contributor</sub></a></td>
       <td align="center"><a href="https://github.com/ishika-a"><img src="img/Ishika.jpg" width="100px;" alt="Ishika"/><br /><sub><b>Ishika</b></br> Contributor</sub></a></td>
-      <td align="center"><a href="https://github.com/prototype-raj"><img src="img/rajarshi.jpg" width="100px;" height="100px;" alt="Rajarshi Rakshit"/><br><sub><b>Rajarshi Rakshit</b><br> Contributor</sub>
-      <td align="center"><a href="https://github.com/Jay206-Programmer"><img src="img/Jay_Shukla.jpg" width="100 px" alt="Jay Shukla"/><br><sub><b>Jay Shukla</b><br> Contributor</sub></td>
-      <td align="center"><a href="https://github.com/Kunal888"><img src="img/Kunal888.jpg" width="100 px" alt="Kunal"/><br><sub><b>Kunal</b><br> Contributor</sub></td>
-      <td align="center"><a href="https://github.com/anjali1903"><img src="img/Anjali.jpeg" width="100 px" alt="Anjali"/><br><sub><b>Anjali Jha</b><br> Contributor</sub></td>
+      <td align="center"><a href="https://github.com/prototype-raj"><img src="img/rajarshi.jpg" width="100px;" height="100px;" alt="Rajarshi Rakshit"/><br /><sub><b>Rajarshi Rakshit</b></br> Contributor</sub></a></td>
+      <td align="center"><a href="https://github.com/Jay206-Programmer"><img src="img/Jay_Shukla.jpg" width="100px;" height="100px;" alt="Jay Shukla"/><br /><sub><b>Jay Shukla</b></br> Contributor</sub></a></td>
+      <td align="center"><a href="https://github.com/Kunal888"><img src="img/Kunal888.jpg" width="100px;" height="100px;" alt="Kunal"/><br /><sub><b>Kunal</b></br> Contributor</sub></a></td>
+      <td align="center"><a href="https://github.com/anjali1903"><img src="img/Anjali.jpeg" width="100 px" height="100px;" alt="Anjali"/><br /><sub><b>Anjali Jha</b></br> Contributor</sub></a></td>
    </tr>
 </table>
 

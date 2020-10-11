@@ -1,4 +1,5 @@
 # Contributed-code-in-Hackoctober
+
 ## Open Repository For Students to Contribute code in Hackoctober in different Languages...
 
 ## This Repository is meant for everyone to create code and learn to contribute to open source
@@ -27,23 +28,31 @@ If the reviewers ask for changes, repeat steps 5 and 6 to add more commits to yo
 
 The implementations/codes which are added/merged in CPP-:
 
-
 ## That's all if Everything will be fine, Your PR will be Merged!!
 
 Happy coding!!!
 
 ### Contributors
+
 <!-- Don't Change under this line-->
 <!-- Contributors:List-->
 <table>
     <tr>       
       <td align="center"><a href="https://github.com/zahinekbal"><img src="img/zahinekbal.jpg" width="100px;" alt="Zahin Ekbal"/><br /><sub><b>Zahin Ekbal</b></br> Maintainer</sub></a></td>
-    </tr>
-    <tr>
-     <td align="center"><a href="https://github.com/AswinCG2002"><img src="img/AswinCG2002.jpg" width="100px;" alt="Aswin CG"/><br /><sub><b>Aswin CG</b></br> DEVELOPER</sub></a></td>
-    </tr>
-  
+      <td align="center"><a href="https://github.com/ahmedashfaq027"><img src="img/ashfaqahmed.jpg" width="100px;" alt="Ashfaq Ahmed"/><br /><sub><b>Ashfaq Ahmed</b></br> Contributor</sub></a></td>
+      <td align="center"><a href="https://github.com/AswinCG2002"><img src="img/AswinCG2002.jpg" width="100px;" alt="Aswin CG"/><br /><sub><b>Aswin CG</b></br>Contributor</sub></a></td>
+      <td align="center"><a href="https://github.com/Nishant763"><img src="img/NishantBhatia.jpeg" width="100px;" alt="Nishant Bhatia"/><br /><sub><b>Nishant Bhatia</b></br> Contributor</sub></a></td>  
+      <td align="center"><a href="https://github.com/cuncis"><img src="img/Cuncis.jpeg" width="100px;" alt="Cuncis"/><br /><sub><b>Cuncis</b></br> Contributor</sub></a></td>
+      <td align="center"><a href="https://github.com/ishika-a"><img src="img/Ishika.jpg" width="100px;" alt="Ishika"/><br /><sub><b>Ishika</b></br> Contributor</sub></a></td>
+      </tr>
+      <tr>
+      <td align="center"><a href="https://github.com/prototype-raj"><img src="img/rajarshi.jpg" width="100px;" height="100px;" alt="Rajarshi Rakshit"/><br /><sub><b>Rajarshi Rakshit</b></br> Contributor</sub></a></td>
+      <td align="center"><a href="https://github.com/Jay206-Programmer"><img src="img/Jay_Shukla.jpg" width="100px;" height="100px;" alt="Jay Shukla"/><br /><sub><b>Jay Shukla</b></br> Contributor</sub></a></td>
+      <td align="center"><a href="https://github.com/Kunal888"><img src="img/Kunal888.jpg" width="100px;" height="100px;" alt="Kunal"/><br /><sub><b>Kunal</b></br> Contributor</sub></a></td>
+      <td align="center"><a href="https://github.com/anjali1903"><img src="img/Anjali.jpeg" width="100 px" height="100px;" alt="Anjali"/><br /><sub><b>Anjali Jha</b></br> Contributor</sub></a></td>
+      <td align="center"><a href="https://github.com/saipranay47"><img src="img/sai_pranay.jpg" width="100px;" alt="sai pranay"/><br /><sub><b>Sai Pranay</b></br> contributer </sub></a></td>
+   </tr>
+
 </table>
 
 #### Don't forget to Give a Star(⭐) on Repo.
-

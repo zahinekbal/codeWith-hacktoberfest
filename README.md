@@ -51,6 +51,7 @@ Happy coding!!!
       <td align="center"><a href="https://github.com/Kunal888"><img src="img/Kunal888.jpg" width="100px;" height="100px;" alt="Kunal"/><br /><sub><b>Kunal</b></br> Contributor</sub></a></td>
       <td align="center"><a href="https://github.com/anjali1903"><img src="img/Anjali.jpeg" width="100 px" height="100px;" alt="Anjali"/><br /><sub><b>Anjali Jha</b></br> Contributor</sub></a></td>
       <td align="center"><a href="https://github.com/saipranay47"><img src="img/sai_pranay.jpg" width="100px;" alt="sai pranay"/><br /><sub><b>Sai Pranay</b></br> contributer </sub></a></td>
+      <td align="center"><a href="https://github.com/vaibhavhariaramani"><img src="img/vaibhav.jpg" width="100px;" alt="Vaibhav Hariramani"/><br /><sub><b>Sai Pranay</b></br> contributer </sub></a></td>
    </tr>
 
 </table>

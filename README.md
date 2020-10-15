@@ -44,6 +44,7 @@ Happy coding!!!
       <td align="center"><a href="https://github.com/Nishant763"><img src="img/NishantBhatia.jpeg" width="100px;" alt="Nishant Bhatia"/><br /><sub><b>Nishant Bhatia</b></br> Contributor</sub></a></td>  
       <td align="center"><a href="https://github.com/cuncis"><img src="img/Cuncis.jpeg" width="100px;" alt="Cuncis"/><br /><sub><b>Cuncis</b></br> Contributor</sub></a></td>
       <td align="center"><a href="https://github.com/ishika-a"><img src="img/Ishika.jpg" width="100px;" alt="Ishika"/><br /><sub><b>Ishika</b></br> Contributor</sub></a></td>
+      <td align="center"><a href="https://github.com/Vishi13"><img src="img/Vishi13.jpg" width="100px;" alt="Vidushi Jain"/><br /><sub><b>Vidushi Jain</b></br> Contributor</sub></a></td>
       </tr>
       <tr>
       <td align="center"><a href="https://github.com/prototype-raj"><img src="img/rajarshi.jpg" width="100px;" height="100px;" alt="Rajarshi Rakshit"/><br /><sub><b>Rajarshi Rakshit</b></br> Contributor</sub></a></td>

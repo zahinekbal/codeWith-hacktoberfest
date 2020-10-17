@@ -45,7 +45,7 @@ class Graph():
   
         for cout in range(self.V): 
   
-            # Pick the minimum distance vertex from  
+            # Pick the minimum distance vertex from it 
             # the set of vertices not yet processed.  
             # u is always equal to src in first iteration 
             u = self.minDistance(dist, sptSet) 

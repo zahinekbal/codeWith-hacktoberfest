@@ -93,29 +93,13 @@ int main() {
             }
             else{
                 n = n - a + x;
-                // cout<<n<<endl;
                 a=x;
                 b = max(y, b-n);
-                // cout<<b<<endl;
                 m=a*b;
             cout<<m<<endl;
 
             }
         }
-        // if(b-n<=y){
-        //     n = n - b + y;
-        //     b = y;
-        //     if(a-n>=x){
-        //         a=a-n;
-        //     }
-        //     else{
-        //         a=x;
-        //     }
-        //     m1=a*b;
-        // }
-        // else{
-            
-        // }
     }
     return 0;
 }

@@ -54,8 +54,10 @@ Happy coding!!!
       <td align="center"><a href="https://github.com/saipranay47"><img src="img/sai_pranay.jpg" width="100px;" alt="sai pranay"/><br /><sub><b>Sai Pranay</b></br> contributer </sub></a></td>
       <td align="center"><a href="https://github.com/Preetam2114"><img src="https://github.com/Preetam2114.png" width="100px;" alt="Preetam Rane"/><br /><sub><b>Preetam Rane</b></br> contributer </sub></a></td>
       <td align="center"><a href="https://github.com/ramalik00"><img src="img/rahul.jpeg" width="100px;" alt="Rahul Malik"/><br /><sub><b>Rahul Malik</b></br> contributer </sub></a></td>
-   </tr>
-
+    </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/samlaubscher"><img src="img/SamLaubscher.jpg" width="100px;" height="100px;" alt="Sam Laubscher"/><br /><sub><b>Sam Laubscher</b></br> Contributor</sub></a></td>
+    </tr>
 </table>
 
 #### Don't forget to Give a Star(⭐) on Repo.

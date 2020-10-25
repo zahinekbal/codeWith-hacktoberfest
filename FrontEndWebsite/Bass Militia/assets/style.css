@@ -1,0 +1,613 @@
+/* FineTweak Designs - Bass Militia 2019 */
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #101010;
+    color: #fffefe;
+}
+
+.page-container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1050px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.linebreak {
+    background-color: #fffefe;
+    height: 1px;
+    margin: 30px 0;
+}
+
+/* ------------- Landing page -------------------*/
+
+.landing_page_header {
+    display: block;
+    padding: 0;
+}
+
+.pic {
+    background-image: url("images/landing-page/landing-pic.jpg");
+    background-size: 2000px;
+    background-position: center;
+    background-repeat: repeat-y;
+    min-height: 100vh;
+}
+
+.landing_page_logo {
+    max-width: 100%;
+    padding: 20% 0 5% 0;
+
+}
+
+.line-top {
+    margin-top: 10px;
+}
+
+.landing-h1 {
+    font-size: 31px;
+}
+
+.line-bottom {
+    margin-bottom: 10px;
+}
+
+.landing_page_links {
+    display: none;
+}
+
+/* --------- navbar --------------------------*/
+
+.navbar,
+.navbar-inverse,
+.navbar-static-top {
+    display: block;
+}
+
+.navbar-header {
+    text-align: center;
+}
+
+.navbar,
+.navbar-inverse,
+.navbar-static-top,
+.navbar-toggle {
+    background-color: transparent;
+    border-color: transparent;
+    float: none;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    text-align: center;
+    color: #fffefe;
+}
+
+.navbar-toggle {
+    margin: 8px 15px;
+}
+
+.navbar-collapse {
+    border-top: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.collapsing {
+    -webkit-transition: height .1s ease;
+    -o-transition: height .1s ease;
+    transition: height .1s ease;
+}
+
+.nav_logo {
+    cursor: pointer;
+    max-width: 100%;
+    display: block;
+}
+
+.css_nav,
+.nav_social {
+    display: none;
+}
+
+.nav_social_footer,
+.nav_social_index_footer {
+    list-style: none;
+}
+
+.nav_social_footer li,
+.nav_social_index_footer li {
+    display: inline-block;
+    padding: 0px 12px;
+    text-decoration: none;
+    color: #fffefe;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.nav_social_footer li a,
+.nav_social_index_footer li a {
+    transition: all 0.25s ease 0s;
+    text-decoration: none;
+    color: #fffefe;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.nav_social_footer li a:hover,
+.nav_social_index_footer li a:hover {
+    color: #969393;
+    text-decoration: none;
+}
+
+/* ---------- General cross-page elements --------------*/
+
+h1,
+h2 {
+    text-align: center;
+    margin: 20px auto 20px auto;
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h6 {
+    font-size: 10px;
+}
+
+.bmr_description {
+    font-size: 20px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 10px;
+    color: #b3b3b3;
+}
+
+.back-to-top-button a {
+    display: block;
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* ----------- Event Page -------------------*/
+
+.event_photo_slider {
+    max-height: 660px;
+    overflow: hidden;
+}
+
+.event_flyers {
+    max-width: 100%;
+}
+
+.event_flyer_border {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 3% 2%;
+    text-align: center;
+}
+
+.event_flyer_border h5 {
+    font-size: 12px;
+    font-family: 'Russo One', sans-serif;
+    padding-top: 2%;
+}
+
+/* --------- Record Label Page -----------------*/
+
+.release_panel,
+.release_panel p,
+.merch_panel,
+.merch_panel p {
+    text-align: center;
+}
+
+.release_panel_info {
+    padding: 5px 20px 20px 20px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.release_panel_info p,
+.merch_panel_info p {
+    color: #b3b3b3;
+}
+
+.release_panel_info h3,
+.merch_panel_info h3 {
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.release_panel img,
+.merch_panel img {
+    max-width: 100%;
+    min-width: 250px;
+    max-height: 500px;
+    min-height: 250px;
+}
+
+.release_panel a {
+    text-decoration: none;
+    color: #772d32;
+}
+
+.bmr_description {
+    font-size: 20px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 10px;
+    color: #b3b3b3;
+}
+
+/*--------------- Merch Page --------------------*/
+
+.merch_photo_slider {
+    max-height: 660px;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.merch_panel a {
+    text-decoration: none;
+    color: #fffefe;
+}
+
+.merch_panel_info {
+    padding: 20px 20px 0px 20px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.merch_panel_info form,
+.merch_panel_info form table {
+    text-align: center;
+    margin: 5px auto;
+}
+
+.merch_panel_info form {
+    padding: 10px 0 0 0;
+}
+
+.merch_panel_info form table select {
+    color: #3c3c3c;
+}
+
+.merch_panel_info form input {
+    padding: 10px;
+}
+
+.merch_panel_info form img {
+    min-height: 1px;
+    min-width: 1px;
+    max-height: 1px;
+    max-width: 1px;
+}
+
+.paypal-text {
+    display: block;
+    text-align: center;
+    font-size: 11px;
+}
+
+/* ------------ Contact Page --------------*/
+
+.contact_box {
+    text-align: center;
+    padding: 10px;
+}
+
+.contact_form {
+    border: none;
+    color: black;
+    display: grid;
+}
+
+.contact_form select,
+.contact_form .send {
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+.contact_form .send {
+    width: 100px;
+}
+
+.form_element {
+    margin: 6px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.file-browse {
+    text-align: center;
+    color: rgb(255, 254, 254);
+    margin: 6px
+}
+
+.crew_contact {
+    display: inline-block;
+    padding: 5px;
+    height: 100%;
+    width: 300px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.crew_contact a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.crew_contact a h3 {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fffefe;
+}
+
+/* --------- Footer -----------------*/
+
+.footer_info {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer_info h6 {
+    color: #696969;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* -------- Media Queries ---------------*/
+
+@media only screen and (min-width: 600px) {
+    .merch_photo_slider {
+        max-width: 57%;
+    }
+}
+
+@media only screen and (min-width: 762px) {
+    .landing_page_logo {
+        padding: 4% 5% 0 5%;
+    }
+
+    .landing_page_links {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .landing_page_links li {
+        display: inline-block;
+        padding: 5px 20px;
+    }
+
+    .landing_page_links li a {
+        font-family: 'Russo One', sans-serif;
+        font-size: 150%;
+        color: #fffefe;
+        font-weight: 500;
+        text-decoration: none;
+        transition: all 0.25s ease 0s;
+    }
+
+    .landing_page_links li a:hover {
+        color: #969393;
+        text-decoration: none;
+    }
+
+    .navbar,
+    .navbar-inverse,
+    .navbar-static-top {
+        display: none;
+    }
+
+    .css_nav {
+        display: flex;
+    }
+
+    .nav_links,
+    .nav_social {
+        list-style: none;
+    }
+
+    .nav_links li {
+        display: inline-block;
+        padding: 0px 7px;
+        text-decoration: none;
+        color: #fffefe;
+        font-size: 0.9em;
+        font-weight: 600;
+    }
+
+    .nav_links li a {
+        transition: all 0.25s ease 0s;
+        text-decoration: none;
+        color: #fffefe;
+        font-size: 0.9em;
+        font-weight: 600;
+    }
+
+    li.current a {
+        color: #969393;
+    }
+
+    .nav_links li a:hover {
+        color: #969393;
+        text-decoration: none;
+    }
+
+    .bmr_description {
+        font-size: 24px;
+        margin: 0 100px;
+    }
+
+    .event_flyer_border {
+        display: inline-block;
+        max-width: 49%;
+        padding: 3% 2%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 770px) {
+    .nav_links li {
+        padding: 0px 7px;
+        font-size: 1em;
+    }
+
+    .nav_links li a {
+        font-size: 1em;
+    }
+
+    .landing-h1 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 970px) {
+    .pic {
+        min-width: 100vh;
+    }
+
+    .landing_page_logo {
+        max-width: 100%;
+        padding: 5% 5% 0 5%;
+    }
+
+    .landing_page_links li {
+        padding: 5px 20px;
+    }
+
+    .landing_page_links li a {
+        font-size: 200%;
+    }
+
+    .nav_links li,
+    .nav_social li {
+        padding: 0px 20px;
+        font-size: 1.1em;
+    }
+
+    .nav_links li a,
+    .nav_social li a {
+        font-size: 1.1em;
+    }
+
+    .event_flyer_border h5 {
+        font-size: 15px;
+    }
+
+
+    .release_panel,
+    .release_panel p,
+    .merch_panel,
+    .merch_panel p {
+        display: flex;
+        text-align: left;
+    }
+
+    .merch_panel form .paypal-text {
+        display: block;
+        text-align: center;
+    }
+
+    .release_panel img,
+    .merch_panel img {
+        display: flex;
+        padding-bottom: 20px;
+        max-width: 100%;
+        min-width: 500px;
+        max-height: 500px;
+        min-height: 500px;
+    }
+
+    .merch_photo_slider {
+        max-width: 57%;
+        margin: 0;
+    }
+
+    .merch_panel img {
+        padding-bottom: 0;
+    }
+
+    .contact_form {
+    max-width: 35%;
+    margin: auto;
+}
+}
+
+@media only screen and (min-width: 1150px) {
+    .landing_page_logo {
+        max-width: 100%;
+        padding: 10% 5% 0 5%;
+    }
+
+    .nav_social {
+        display: flex;
+    }
+
+    .nav_social_footer {
+        display: none;
+    }
+
+    .event_flyer_border h5 {
+        font-size: 20px;
+    }
+
+    .nav_social {
+        list-style: none;
+    }
+
+    .nav_social li {
+        display: inline-block;
+        padding: 0px 15px;
+        text-decoration: none;
+        color: #fffefe;
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+
+    .nav_social li a {
+        transition: all 0.25s ease 0s;
+        text-decoration: none;
+        color: #fffefe;
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+
+    .nav_social li a:hover {
+        color: #969393;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (min-height: 670px) and (max-height: 750px) {
+    .landing_page_logo {
+        padding: 2% 5% 0 5%;
+    }
+}

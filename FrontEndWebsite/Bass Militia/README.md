@@ -1,12 +1,14 @@
 # Bass Militia Website
 
+https://samlaubscher.github.io/bass-militia-website
+
 ![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/landing-page/Landing-page-preview-screenshot.png?raw=true)
 
 A website built for the Bass Militia Collective, created to serve as a promotional showcase and contact directive for their music events team, as well as their freshly launched record label.
 
-## UX [Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.]
+## UX
 
-Bass Militia is a Bristol based collective that focuses on creating and promoting electronic dance music - namely the harder and darker side of mutant bass, drum and bass, and 4x4 bass oriented styles. They have been heavily involved in the local events industry for the past year in Bristol, having organised and successfully ran some of the best nights for this style of music in years.
+Bass Militia is a Bristol based collective that focuses on creating and promoting electronic dance music - namely the harder and darker side of mutant bass, drum and bass, and 4x4 bass oriented styles. They have been heavily involved in the local events industry for the past year in Bristol, having organised and successfully run some of the best nights for this style of music in years.
 
 The owner of the brand approached me and asked if I could build them a simple but effective website to serve some of their requirements and streamline their marketing. The initial request was to have a page that easily displayed contact information and all posters of the previous events organised by the brand, allowing them to easily present their back catalogue of work as well as a means of contact for anybody interested. I suggested they should also include event imagery to deliver an instant insight on the general attendance and successful appearance of these past events.
 
@@ -39,19 +41,19 @@ As I was developing the website, the brand continued to create more media throug
 - Contact page
 
 ### Existing Features
-- Navbar - A Navbar is used across the site allowing users to easily navigate through the website regardless of the page they are on. The use of a collapsable dropdown menu is used on mobile view to save space.
-- Social Media Links - The navbar also includes social media links across the website, these are relocated to the footer on mobile devices.
-- The [Landing page](https://samlaubscher.github.io/bass-militia-website/index.html) - allows users to easily and clearly navigate to either a specific page of the website they desire via the navbar, or to one of the external website links via the footer icons.
-- Event images - The top of the [Events page](https://samlaubscher.github.io/bass-militia-website/events.html) allows users to see photos taken taken at the events, achieved with the use of a photo carousel.
-- Catalogue of pase events - The [Events page](https://samlaubscher.github.io/bass-militia-website/events.html) also allows users to clearly see all of the previous events hosted, achieved by displaying each of the posters in a chronologically ordered grid layout.
-- [Label page](https://samlaubscher.github.io/bass-militia-website/record_label.html) announcements - Users can clearly see any public news and announcements relating to the label at the top of the Record Label page via the 'Announcements' section.
-- Back catalogue of releases - On the [Record Label page](https://samlaubscher.github.io/bass-militia-website/record_label.html) Users can easily view the chronological order of releases and premieres on the label by viewing the 'Digital Album Releases' and 'Premieres' sections on the record label page.
-- Direct file uploads / submissions - Artists are able to upload their demo submissions for the record label directly through the website by visiting the [Record Label page](https://samlaubscher.github.io/bass-militia-website/record_label.html) and filling in the contact form in the 'Submissions' section at the bottom.
-- Merchandise images - On the [Merchandise page](https://samlaubscher.github.io/bass-militia-website/merchandise.html) users can view photo carousels with the featured merchandise available.
-- Purchase merchandise - Via the [Merchandise page](https://samlaubscher.github.io/bass-militia-website/merchandise.html) users are able to securely purchase using the linked PayPal 'Buy Now' buttons which display sizes and are actively linked to the correct corresponding payment account.
-- Crew members [contact directory](https://samlaubscher.github.io/bass-militia-website/contact.html) - Users are able to easily view members involved in the team as well as their contact details. Users can click on these details to compose direct emails to the respectful recipients.
-- Submission and enquiry sections - Users are able to see the correct avenue of contact in regards to track submissions, event enquiries or general enquiries etc by viewing the [Contact page](https://samlaubscher.github.io/bass-militia-website/contact.html) and locating the section relating to their needs.
-- Direct contact forms - Via the [Contact page](https://samlaubscher.github.io/bass-militia-website/contact.html) any type of user is able to directly contact the brand via the website itself by filling in the contact form and allocating the correct reason for the enquiry.
+- **Navbar** - A Navbar is used across the site allowing users to easily navigate through the website regardless of the page they are on. The use of a collapsible dropdown menu is used on mobile view to save space.
+- **Social Media Links** - The navbar also includes social media links across the website, these are relocated to the footer on mobile devices.
+- **The [Landing page](https://samlaubscher.github.io/bass-militia-website/index.html)** - allows users to easily and clearly navigate to either a specific page of the website they desire via the navbar, or to one of the external website links via the footer icons.
+- **Event images** - The top of the [Events page](https://samlaubscher.github.io/bass-militia-website/events.html) allows users to see photos taken taken at the events, achieved with the use of a photo carousel.
+- **Catalogue of past events** - The [Events page](https://samlaubscher.github.io/bass-militia-website/events.html) also allows users to clearly see all of the previous events hosted, achieved by displaying each of the posters in a chronologically ordered grid layout.
+- **[Label page](https://samlaubscher.github.io/bass-militia-website/record_label.html) announcements** - Users can clearly see any public news and announcements relating to the label at the top of the Record Label page via the 'Announcements' section.
+- **Back catalogue of releases** - On the [Record Label page](https://samlaubscher.github.io/bass-militia-website/record_label.html) Users can easily view the chronological order of releases and premieres on the label by viewing the 'Digital Album Releases' and 'Premieres' sections on the record label page.
+- **Direct file uploads / submissions** - Artists are able to upload their demo submissions for the record label directly through the website by visiting the [Record Label page](https://samlaubscher.github.io/bass-militia-website/record_label.html) and filling in the contact form in the 'Submissions' section at the bottom.
+- **Merchandise images** - On the [Merchandise page](https://samlaubscher.github.io/bass-militia-website/merchandise.html) users can view photo carousels with the featured merchandise available.
+- **Purchase merchandise** - Via the [Merchandise page](https://samlaubscher.github.io/bass-militia-website/merchandise.html) users are able to securely purchase using the linked PayPal 'Buy Now' buttons which display sizes and are actively linked to the correct corresponding payment account.
+- **Crew members [contact directory](https://samlaubscher.github.io/bass-militia-website/contact.html)** - Users are able to easily view members involved in the team as well as their contact details. Users can click on these details to compose direct emails to the respectful recipients.
+- **Submission and enquiry sections** - Users are able to see the correct avenue of contact in regards to track submissions, event enquiries or general enquiries etc by viewing the [Contact page](https://samlaubscher.github.io/bass-militia-website/contact.html) and locating the section relating to their needs.
+- **Direct contact forms** - Via the [Contact page](https://samlaubscher.github.io/bass-militia-website/contact.html) any type of user is able to directly contact the brand via the website itself by filling in the contact form and allocating the correct reason for the enquiry.
 
 ### Features Left to Implement
 - I would like to include the back end processes to allow the contact form submissions to be received by the server and for file submissions to be uploaded and downloaded.
@@ -71,11 +73,11 @@ As I was developing the website, the brand continued to create more media throug
 - [**Bootstrap 3.7.7**](https://getbootstrap.com/docs/3.3/) 
     - I used the Bootstrap framework only to help with minor content sizing and responsiveness, but mainly for the photo carousel and collapsed navbar. - I aimed to style the majority of the website myself using CSS without the assistance of the framework to maximise skills learnt.
 - [**JQuery**](https://jquery.com)
-    - I used jQuery alonside Bootstrap to collapse the Navbar.
+    - I used jQuery alongside Bootstrap to collapse the Navbar.
 - [**Font Awesome**](https://fontawesome.com/)
     - I used Font Awesome for the social media icons.
 - [**Google fonts**](https://fonts.google.com/)
-    - I implimented the use of Google Fonts into this project - I used 'Nunito Sans', 'Russo One' & 'Yantramanav'.
+    - I implemented the use of Google Fonts into this project - I used 'Nunito Sans', 'Russo One' & 'Yantramanav'.
 - [**Soundcloud Embedded**](https://soundcloud.com/)
     - I was able to embed the respected Soundcloud tracks and playlists to the corresponding releases on the Record Label page.
 - [**PayPal Embedded**](https://www.paypal.com)
@@ -84,16 +86,36 @@ As I was developing the website, the brand continued to create more media throug
     - I used Git for version control.
 - [**GitHub**](https://github.com/)
     - I used GitHub alongside Git to commit the development stages and host the repository.
+- [**GitHub Pages**](https://pages.github.com/)
+    - I deployed my website to this for project marking and peer review.
+- [**IONOS by 1&1**](https://www.ionos.co.uk)
+    - I registered the domain and hosted my final site to this service for my client to use officially.
+- [**TinyJPG**](https://tinyjpg.com)
+    - I compressed my images using this website.
+- [**ResizeImage.net**](https://resizeimage.net/)
+    - I used this website to quickly resize my images.
 
 ## Testing
 
 - Before I started the more in depth testing, I ensured that the website served the purpose it was built for by running through each of the user stories myself and checking all requirements were met.
 
+- I tested the contact boxes as follows:
+    - I went to the [Record Label page](https://samlaubscher.github.io/bass-militia-website/record_label.html) and tried to submit the form without any information entered to verify the 'required' prompt appears. - *Working*
+    - I tried to submit an incorrect email format to verify the error message appears. - *Working*
+    - I verified it would only allow the user to upload audio file formats. - *Working*
+    - I went to the [Contact page](https://samlaubscher.github.io/bass-militia-website/contact.html) and tried to submit the form without any information entered to verify the 'required' prompt appears. - *Working*
+    - I tried to submit an incorrect email format to verify the error message appears. - *Working*
+    - I verified it would allow the user to upload multiple file formats. - *Working*
+
+- I tested all embedded Soundcloud players. - *Working*
+
+- I tested the merchandise 'Buy Now' PayPal links, checking the correct information transferred to the secure purchase page. - *Working*
+
 - I checked all navigation, href and anchor links were working and pointed to the correct destinations. - *Working*
 
-- All images were correctly sized across the site and displayed correctly in the photo carousels. - *Working*
+- I checked that all images were displaying correctly across the site and in the photo carousels. - *Working*
 
-- All email mailto: links were correct and working. - *Working*
+- All email mailto: links were correct and allowed the user to quickly compose emails. - *Working*
 
 - I tested the responsiveness of the website across every different phone size within Google Developer Tools. - *Working*
 
@@ -114,57 +136,71 @@ As I was developing the website, the brand continued to create more media throug
 
 - I used the [W3C CSS Validator](http://www.css-validator.org/) to check all the CSS was also valid and working correctly. - *Working*
 
-- I tested the website on my Iphone 5s and my Macbook Pro. - *Working*
+- I tested the website on an Iphone 5s, Samsung Galaxy, iPhone 7 and X. I also tested on multiple Macbook Pro's and Windows laptops as well as across multiple different browsers. - *Working*
+
+- I ran my website through [GTmetrix](https://gtmetrix.com) and it presented me with speed issues I had not been given on Google Developer Tools. 
+    - It outlined that some of the images had been resized within the IDE so their native pixel ratio was still far too large.
+    
+    ![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/readme-images/gmetrix-1.JPG?raw=true)
+
+    - I used compression and resizing tools to edit the images to give the best result possible. 
 
 - I hosted the website on its own domain **https://www.bassmilitia.com** and showed the client for feedback and testing. 
     - He was happy with everything and found no bugs.
 
 - I posted my webpage into the Slack 'Peer Review' channel for feedback from other students. 
 
-- I ran my website through [GTmetrix](https://gtmetrix.com) and it presented me with speed issues I had not been given on Google Developer Tools. It outlined that some of the images had been resized within the IDE so their native pixel ratio was still far too large, and I could save space by resizing these on top of the compression I had already applied. 
-    ![](https://github.com/samlaubscher/bass-militia-website/blob/master/assets/images/readme-images/gmetrix-1.JPG?raw=true)
-
-
-html testing 
-css testing 
-google audit 
-
-
-
-
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+A small bug I ran into at the end was an image on the record label page breaking each time I attempted to load the page. I spent a while revamping the image and trying different ones. Finally I discovered I had somehow left a forward slash before the 'assets' part of the file path.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+### GitHub pages
+To deploy this project for project marking, I utilised the GitHub Pages feature. The steps I took to do this are as follows.
+- I visited my GitHub [repository page](https://github.com/samlaubscher/bass-militia-website).
+- I clicked on *Settings* in the top right hand corner.
+- I scrolled down to the *GitHub Pages* section.
+- The top part named *Source* contains a dropdown box, I clicked that and selected *Master Branch* from the menu.
+- Upon clicking the *Master Branch*, the page automatically refreshed and a ribbon appeared stating this below message detailing the successful deployment of the page.
+    ```
+    Your site is published at https://samlaubscher.github.io/bass-militia-website/
+    ```
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+### IONOS by 1&1
+To deploy this project for official use by my client, I followed the below procedure.
+- First I registered the domain *www.bassmilitia.com* and bought the hosting package.
+- I downloaded my repository from the GitHub [repository page](https://github.com/samlaubscher/bass-militia-website).
+- I then opened the web hosting overview page - *https://my.ionos.co.uk/hosting-overview*
+- I clicked on *Use Webspace* and was taken to a file uploading page. 
+- I unpacked the repository folder I had just downloaded, and uploaded it to this directory.
+- I then returned to the web hosting overview page and selected *Link Directory to Domain*.
+- I selected the domain I had just purchased. 
+- The page then refreshed and showed that the webspace was successfully linked to this domain. 
+- I then clicked on *Manage Domain*.
+- I clicked on *Settings* and selected *Apply SSL Certificate*. 
+- The domain was now ready for use with *https* and the website was successfully and securely deployed.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+### Local Deployment
+To deploy this website locally, users can follow these steps.
+- Visit the repository page [repository page](https://github.com/samlaubscher/bass-militia-website).
+- Click the *Clone or download* dropdown menu box.
+- Copy the SSH key *git@github.com:samlaubscher/bass-militia-website.git* .
+- Open terminal on their own local machine. 
+- Change the directory to the location you want the repository to be saved by using the *cd* command.
+- Type *git@github.com:samlaubscher/bass-militia-website.git* .
+- The files should now be downloaded to the specified directory allowing the website to be run locally by running the *index.html* file. 
 
 ## Credits
+Credit must be given for the initial advice supplied through the project guidelines by Code Institute.
+
+- **Soundcloud** provided the embedded code for the players via the release page *share* feature.
+- **PayPal** provided the embedded payment button function through their website.
+- **Bootcamp Photo Carousel** was taken from w3schools *https://www.w3schools.com/bootstrap/bootstrap_carousel.asp*.
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- All content was created myself or provided from Bass Militia directly.
 
 ### Media
-- The photos used in this site were obtained from ...
+- All media used in this project was taken from Bass Militia directly. No content was taken from online. 
 
 ### Acknowledgements
-
-- I received inspiration for this project from X
+- I would like to thank my mentor Ignatius Ukwuoma for his mid and end of project feedback, as well as the other students that provided information and advice either directly or indirectly through the Slack channels.

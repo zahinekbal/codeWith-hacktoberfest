@@ -54,6 +54,7 @@ Happy coding!!!
       <td align="center"><a href="https://github.com/saipranay47"><img src="img/sai_pranay.jpg" width="100px;" alt="sai pranay"/><br /><sub><b>Sai Pranay</b></br> contributer </sub></a></td>
       <td align="center"><a href="https://github.com/Preetam2114"><img src="https://github.com/Preetam2114.png" width="100px;" alt="Preetam Rane"/><br /><sub><b>Preetam Rane</b></br> contributer </sub></a></td>
       <td align="center"><a href="https://github.com/ramalik00"><img src="img/rahul.jpeg" width="100px;" alt="Rahul Malik"/><br /><sub><b>Rahul Malik</b></br> contributer </sub></a></td>
+      <td align="center"><a href="https://github.com/Mrcedric"><img src="img/cedric-img-portrait-2.png" width="100px;" alt="Cédric"/><br /><sub><b>Cédric</b></br> contributer </sub></a></td>
    </tr>
 
 </table>

@@ -1,16 +1,16 @@
-# Contributed-code-in-Hackoctober
+# Contributed-code-in-Hacktober
 
-## Open Repository For Students to Contribute code in Hackoctober in different Languages...
+## Open repository for students to contribute code in Hacktober in different languages
 
 ## This Repository is meant for everyone to create code and learn to contribute to open source
 
-People can star, fork or clone this repo and can add any type of data structures or algorithm codes and can raise PR during hacktoberfest.
+People can star, fork or clone this repo and can add any type of data structures or algorithm codes in order to raise PR during Hacktoberfest.
 
-Use this repo for contributing in open source.
-Start solving issues and raise the pull requests and even you can create your own issues.
+This repo is aimed for everyone new in open source to help understand code-contribution in open source.
+Start solving issues and raise your PR. You can even create your own issues.
 If you want to contribute to a project, the simplest way is to:
 
-Find a ISSUE you want to contribute to ->> Fork it
+Find an ISSUE you want to contribute to ->> Fork it
 
     Clone it to your local system
 
@@ -28,7 +28,7 @@ If the reviewers ask for changes, repeat steps 5 and 6 to add more commits to yo
 
 The implementations/codes which are added/merged in CPP-:
 
-## That's all if Everything will be fine, Your PR will be Merged!!
+## That's all if everything will be fine, your PR will be merged!!
 
 Happy coding!!!
 

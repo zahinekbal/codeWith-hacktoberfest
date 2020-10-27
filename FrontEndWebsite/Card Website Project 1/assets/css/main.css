@@ -1,0 +1,52 @@
+/* Card Website Project 1 */
+
+:root {
+    --linkColor: #212529;
+    --linkColorHover: var(--color1);
+    --shadow: #7a4b6f;
+    --color1: rgb(148, 89, 57);
+    --color2: rgb(185, 117, 206);
+    --color3: rgb(152, 106, 67)
+}
+
+/* Global */
+
+body {
+    background: linear-gradient(45deg, var(--color1) , var(--color2), var(--color3));
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: var(--linkColor);
+}
+
+a:hover {
+    color: var(--linkColorHover);
+}
+
+/* Card */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card-container .card {
+    align-self: center;
+    box-shadow: 0px 0px 30px var(--shadow);
+    border-radius: 0;
+    width: 20em;
+}
+
+.card-container .card-title {
+    margin-bottom: 0;
+}
+
+.card-container .list-group-item i {
+    margin-right: 0.3em;
+}
+
+.card-container .card-link i {
+    font-size: 1.1em;
+}

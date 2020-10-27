@@ -1,0 +1,45 @@
+/* Card Website Project 1 */
+
+:root {
+    --color: #000;
+    --linkColor: var(--color);
+    --borderSize: 3px;
+    --borderColor: var(--color);
+}
+
+/* Global */
+
+body {
+    color: var(--color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    font-family: 'Syne Mono', monospace;
+}
+
+a {
+    color: var(--linkColor);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.bg-dark {
+    background-color: var(--color)!important;
+}
+
+/* Card */
+
+.card-img, .card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.card {
+    align-self: center;
+    width: 20em;
+    border: var(--borderSize) solid var(--borderColor);
+    border-radius: 0;
+}

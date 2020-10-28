@@ -1,0 +1,60 @@
+/* Card Website Project 4 */
+
+:root {
+    --linkColor: #28a745;
+    --linkColorHover: var(--color1);
+    --shadow: var(--linkColor);
+    --bgColor:#f0f9f2;
+    --color1: rgb(148, 89, 57);
+    --color2: rgb(185, 117, 206);
+    --color3: rgb(152, 106, 67)
+}
+
+/* Global */
+
+body {
+    /* If you want to use a linear gradient */
+    /* background: linear-gradient(45deg, var(--color1) , var(--color2), var(--color3)); */
+    background: var(--bgColor);
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: var(--linkColor);
+}
+
+a:hover {
+    color: var(--bgColor);
+}
+
+/* Card */
+
+.card-img, .card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.card-header {
+    padding: 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card-container .card {
+    align-self: center;
+    border-radius: 0;
+    width: 20em;
+    box-shadow: 15px 15px 0px var(--shadow);
+}
+
+.card-container .card-title {
+    margin-bottom: 0;
+}
+
+.card-container .card-link i {
+    font-size: 1.1em;
+}

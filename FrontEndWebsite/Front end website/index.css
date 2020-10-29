@@ -1,0 +1,63 @@
+body{
+    background-image: url("img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100%;
+    background-size: cover;
+}
+
+body, html {
+height: 100%;
+margin: 0;
+}
+
+
+@import: url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+body {
+font-family: 'Roboto Condensed', sans-serif;
+height: 100%;
+background-color: black;
+color: #fff;
+text-transform: uppercase;
+
+}
+.container {
+text-align: center;
+}
+h1 {
+margin-left: 30px;
+margin-bottom: 50px;
+}
+
+
+.card-body{
+    box-shadow: 5px 5px 7px 8px;
+}
+
+/*This is the styling that make cards responsive.*/
+.card{
+    margin:20px 10px; 
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer{
+    background-color:darkorchid;
+  
+    margin-top: 30px;
+    text-align: center;
+   overflow: hidden;
+    margin-bottom: 0px;
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  
+    color: white;
+
+
+}

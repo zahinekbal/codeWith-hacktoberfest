@@ -18,6 +18,8 @@
 using namespace std;
 
 int bin2dec(int num)
+
+
 {
     int dec = 0, base = 1;
     while (num != 0)

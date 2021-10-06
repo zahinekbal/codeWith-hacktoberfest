@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-image: url(/assets/images/bg1.jpg);
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    color: #ffff;
+}
+
+header p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color:gainsboro;
+}
+
+header h1:hover {
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: rgb(26, 180, 149, 0.7);
+}
+
+ul li a {
+    text-decoration: none;
+    color: ghostwhite;
+    font-family: 'Roboto', sans-serif;
+}
+
+.label {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li {
+    color: ghostwhite;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li img {
+    transition: 1s;
+}
+
+ul li img:hover {
+    cursor: pointer;
+    filter: invert(52%) sepia(55%) saturate(569%) hue-rotate(118deg) brightness(99%) contrast(93%);
+}
+
+#signup-form input {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.75);
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    border-radius: 6px;
+}
+
+.text::placeholder {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.text:hover {
+    border-color: #1cb495;
+}
+
+.submit {
+    background-color: rgb(26, 180, 149, 1);
+    border: none;
+    color: #ffff;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+@media only screen and (max-width : 1680px) {
+    header {
+        margin-left: 1.5em;
+    }
+
+    header h1 {
+        margin-bottom: 0.5em;
+    }
+
+    form {
+        margin-left: 1.5em;
+    }
+
+    footer {
+        margin-left: 1.5em;
+        margin-top: auto;
+    }
+
+    .icons li {
+        list-style: none;
+        display: inline-block;
+    }
+    
+    .copyright li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    footer ul {
+        margin-top: 5em;
+        display: inline-block;
+        padding-inline-start: 0;
+    }
+
+    footer p {
+        font-size: small;
+        color: #ffff;
+        margin-top: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 8em 4em 4em;
+    }
+    
+    .text {
+        width: 18em;
+        padding: 0 1em;
+        color: #ffff;
+        font-size: 1em;
+    }
+
+    .submit {
+        padding: 1em;
+        font-size: 1em;
+    }
+
+    input {
+        color: #fff;
+    }
+
+    #signup-form {
+        display: flex;
+        position: relative;
+    }
+
+    #signup-form > .submit {
+        margin: 0px 0px 0px 1em;
+    }
+
+    body {
+        text-size-adjust: none;
+    }
+
+    #hiddentext {
+        display: flex;
+        align-items: center;
+        font-size: 1em;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 1em;
+        color: #1cb495;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    header h1 {
+        margin-bottom: 0.5em;
+        font-size: 1.5em;
+    }
+
+    header {
+        text-align: left;
+        margin-left: 0;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    .icons li {
+        list-style: none;
+        display: inline-block;
+    }
+    
+    .copyright li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    footer ul {
+        margin-top: 5em;
+        display: inline-block;
+        padding-inline-start: 0;
+    }
+
+    footer p {
+        font-size: small;
+        color: #ffff;
+        margin-top: 0;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5em 1.25em 1.25em;
+    }
+    
+    .text {
+        padding: 0;
+        color: #ffff;
+        font-size: 12pt;
+        width: 100%;
+        height: 2.75em;
+        text-align: center;
+    }
+
+    .submit {
+        padding: 0;
+        font-size: 12pt;
+        height: 2.75em;
+        text-align: center;
+    }
+
+    input {
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #signup-form {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+
+    #signup-form > * {
+        margin: 1.25em 0 0 0;
+    }
+
+    #signup-form > .submit {
+        margin-left: 0;
+        margin-top: 1.25em;
+    }
+
+    form {
+        margin: 0 0 2em;
+    }
+
+    ul {
+        display: inline-block;
+        list-style-type: none;
+
+    }
+
+    footer {
+        margin-left: 0;
+    }
+}

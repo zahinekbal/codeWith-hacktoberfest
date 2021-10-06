@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/76627a615d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/main.css">
+    <title>Eventually by Ashish</title>
+</head>
+<body>
+    <header id="head">
+        <h1>Eventually</h1>
+        <p>A simple template for telling the world when you'll launch<br />
+        your next big thing. Brought to you by HTML5 UP.</p>
+    </header>
+
+    <!-- Signup Form -->
+	<form id="signup-form" method="post" action="#">
+		<input class="text" type="email" name="email" id="email" placeholder="Email Address" />
+		<input id="submit_btn" class="submit" onclick="showtext()" type="submit" value="Sign Up"/>
+		<p id="hiddentext"></p>
+	</form>
+
+    <!-- Footer -->
+	<footer id="footer">
+		<ul class="icons">
+			<li><img src="/assets/images/twitter.png" href="#"></a></li>
+			<li><img src="/assets/images/instagram.png" href="#"></a></li>
+			<li><img src="/assets/images/github.png" href="#"></a></li>
+			<li><img src="/assets/images/email.png" href="#"></a></li>
+		</ul>
+		<p>&copy; ashish | 2021</p>
+	</footer>
+	<script>
+		function showtext() {
+			document.getElementById("hiddentext").innerHTML="✔ Thank You!";
+			document.getElementById("submit_btn").disabled=true;
+		  	
+		}
+	</script>
+</body>
+</html>

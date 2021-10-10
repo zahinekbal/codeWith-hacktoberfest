@@ -11,8 +11,6 @@
  *      2. Programming in ANSI C - E. Balagurusamy -> Test Project Appendix IV
  */
 
- // C++ program to demonstrate default behaviour of
-// sort() in STL.
 #include <bits/stdc++.h>
 using namespace std;
 
